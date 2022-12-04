@@ -20,7 +20,7 @@ function newItem() {
   
 
 // Deletes an item from list
-    let deleteButton = $('<button>X</button>');
+    let deleteButton = $('<button class="deleteButton">X</button>');
     li.append(deleteButton);
 
     function deleteListItem() {
