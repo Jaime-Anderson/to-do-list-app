@@ -31,4 +31,5 @@ function newItem() {
     
 
 // Changes the order of list items
+    $('#list').sortable();
 }
